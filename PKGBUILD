@@ -10,10 +10,7 @@ arch=('any')
 url="https://pypi.python.org/pypi/PyExecJS"
 license=('MIT')
 makedepends=('python-setuptools' 'python2-setuptools')
-optdepends=('v8: Google JavaScript engine'
-            'nodejs: built on Chrome V8 JavaScript engine'
-            'phantomjs: a headless WebKit'
-            'spidermonkey: Mozilla JavaScript engine')
+optdepends=('nodejs: built on Chrome V8 JavaScript engine')
 changelog=changelog
 source=(https://files.pythonhosted.org/packages/source/${_name::1}/${_name}/${_name}-${pkgver}.tar.gz)
 sha256sums=('34cc1d070976918183ff7bdc0ad71f8157a891c92708c00c5fbbff7a769f505c')
